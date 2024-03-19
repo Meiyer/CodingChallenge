@@ -1,0 +1,86 @@
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* inizio contenitore e header */
+header{
+    text-align: center;
+}
+
+.contenitore{
+    width: 1000px;
+    height: 800px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
+    margin:auto;
+}
+
+header > img{
+    width: 250px;
+    height: auto;
+    margin-top: 50px;
+}
+
+header > h1{
+    color: rgb(0, 221, 0);
+    margin-top: auto;
+}
+
+.menu{
+    background-color: rgb(0, 221, 0);
+    max-width: 80%;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.menu > div{
+    padding: 10px;
+    margin: auto;
+}
+
+/* fine contenitore e header */
+
+
+/* inizio main */
+.shopmonopattino{
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.shopmonopattino > h2,p{
+    color: white;
+    margin-top: 2px;
+    margin-bottom: auto;
+}
+
+.batteriacaricauno{
+    background-color: rgb(245, 180, 83);
+    max-width: 45%;
+    height: 30px;
+    border-radius: 8px;
+}
+
+.batteriacaricadue{
+    background-color: rgb(30, 195, 30);
+    max-width: 80%;
+    height: 30px;
+    border-radius: 8px;
+}
+
+.batteriacaricatre{
+    background-color: rgb(190, 65, 65);
+    max-width: 20%;
+    height: 30px;
+    border-radius: 8px;
+}
+
+/* fine main */
